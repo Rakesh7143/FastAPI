@@ -9,6 +9,10 @@ def greet_user(name: str):
 @app.get("/hello")
 def say_hello():
     return {"message": "Hello, welcome to FastAPI!"}
+    
+@app.get("/test")
+def test_pull():
+    return {"message": "Hello, welcome to GitHub!"}
 
 # testing 1
 
