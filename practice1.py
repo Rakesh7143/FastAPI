@@ -10,3 +10,5 @@ def greet_user(name: str):
 def say_hello():
     return {"message": "Hello, welcome to FastAPI!"}
 
+# testing 1
+
