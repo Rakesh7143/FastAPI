@@ -1,0 +1,19 @@
+uvicorn main:app --reload
+
+Here’s what each part means:
+
+main: file name (main.py).
+app: FastAPI instance inside the file.
+--reload: Automatically restarts the server when you make code changes.
+
+Types of REST APIs
+1. Open APIs (Public APIs)
+2. Internal APIs (Private APIs)
+3. Partner APIs
+4. Composite APIs  ----  Combine multiple API requests into a single call
+
+Fastapi HTTP Methods
+1. @app.get: Retrieve data
+2. @app.post: Create data
+3. @app.put / @app.patch: Update data
+4. @app.delete: Remove data
